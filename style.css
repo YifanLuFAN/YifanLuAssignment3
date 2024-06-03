@@ -1,0 +1,1393 @@
+/* Split the whole page into two parts and change the background colour separately */
+.container1{
+  background-color: #FFFFFF;
+  text-align: center;
+}
+.container2{
+  background-color: #F7F4EF;
+  text-align: center;
+}
+
+/* Hide the hamburger menu */
+.topnav{
+  display: none;
+}
+
+/* Adjust the position of the logo and menu section */
+header{
+  width: 946px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* change the layout of logo */
+.logo{
+  display: block;
+  float:left;
+}
+.logo img{
+  width: 40%;
+}
+
+/* change the layout of 3 function bar */
+.menu{
+  display: block; 
+  float:right;
+  margin-top: -50px;
+  margin-right: 20px;
+}
+.menu img{
+  width: 30px;
+  margin-left: 40px;
+} 
+
+/* change the layout of desktop version navigation */
+nav{
+  clear: both;
+  width: 946px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: -35px;
+}
+nav li{
+  display: inline;
+  margin-left: 40px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+nav li:hover{
+  color: #763A15;
+  text-decoration: none;
+}
+
+/* Give a hover zoom effect to all clickable images. */
+.hover-image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+.hover-image:hover{
+    transform: scale(1.1); 
+}
+
+
+/* homepage(index) layout section */
+
+/* change the layout of the banner image */
+.banner{
+  width:946px;
+  display:inline-block;
+  vertical-align: middle;
+}
+.banner img{
+  width:100%;
+}
+
+/* change the layout of homepage category */
+.category{
+  width:946px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+/* layout of heading */
+.category h2{
+  font-size: 50px;
+  font-family: "Oleo Script", system-ui;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* layout of image */
+.category-item{
+  width: 13%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+  margin-right:15px;
+}
+.category-item img{
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+/* layout of text */
+.category p{
+  display: inline;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* change the layout of homepage popular products section */
+.popular{
+  background-color: #D2B48C;
+  width: 946px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.popular h2{
+  font-size: 40px;
+  font-family: "Oleo Script", system-ui;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.popular-item{
+  width: 15%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+  margin-right:15px;
+}
+.popular-item img{
+  width: 100%;
+  margin-bottom: 5px;
+}
+.popular p{
+  display: inline;
+  font-size: 18px;
+  font-family: "Oleo script", sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+
+/* productlist layout section */
+
+/* change the layout of productlist banner image */
+.bannerSub{
+  width:946px;
+  display:inline-block;
+  vertical-align: middle;
+}
+.bannerSub img{
+  width:100%;
+}
+
+/* change the layout of "sorted by" menu */
+.sort{
+  width: 946px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.sort button{
+  width: 120px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  color: #000000;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-left: 0px;
+  float: left;
+}
+
+/* change the layout of productlist */
+/* layout of image */
+.productList{
+  width:946px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.productItem{
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right:10px;
+  margin-bottom: 20px;
+}
+.productItem img{
+  width: 100%;
+}
+
+/* layout of text */
+.productName{
+  display: block;
+  font-size: 18px;
+  font-family: "Oleo script", sans-serif;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+/* Because of the different font styles for product names and prices, different classes are used respectively */
+.productlistPrice{
+  display: block;
+  font-size: 18px;
+  color: #763A15;
+  font-family: "Oleo script", sans-serif;
+  line-height: 0px;
+} 
+
+
+/* product introduction page layout section */
+
+/* change the layout of the product introduction page */
+.productIntroduction{
+  width: 946px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+/* change the layout of the large product image */
+.IntroductionPicture{
+  display: inline-block;
+  width: 55%;
+}
+.IntroductionPicture img{
+  width: 100%;
+}
+
+/* Because of the difference in the amount of introductory text, I used two different classes for each of the two different products to change the layout */
+/* productintroduction1 section */
+.Introduction1{
+  display: inline-block;
+  width:40%;
+  text-align: left;
+  margin-left: 30px;
+  vertical-align: top;
+  margin-top: 30px;
+}
+.Introduction1 h1{
+  font-size: 30px;
+  font-family: "Oleo Script", system-ui;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.Introduction1 h2{
+  font-size: 30px;
+  font-family: "Oleo Script", system-ui;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.Introduction1 a{
+  display: block;
+}
+.Introduction1 img{
+  margin-top: 55px;
+  float: right;
+  width: 30%;
+}
+
+/* productintroduction2 section */
+.Introduction2{
+  display: inline-block;
+  width:40%;
+  text-align: left;
+  margin-left: 30px;
+  vertical-align: top;
+  margin-top: 30px;
+}
+.Introduction2 h1{
+  font-size: 30px;
+  font-family: "Oleo Script", system-ui;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.Introduction2 h2{
+  font-size: 30px;
+  font-family: "Oleo Script", system-ui;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.Introduction2 a{
+  display: block;
+}
+.Introduction2 img{
+  margin-top: 75px;
+  float: right;
+  width: 30%;
+}
+
+/* Here are the parts that are common to both introdution (price, introductory text), and I made the same adjustments to them */
+.IntroductionPrice{
+  font-size: 30px;
+  color:#763A15;
+  font-family: "Oleo script", sans-serif;
+  font-weight: 600;
+} 
+.IntroductionText{
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+/* change the layout of buttons for next step */
+.buy{
+  width: 946px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* for buttons */
+.buy button{
+  width: 140px;
+  height: 35px;
+  background-color: #916135;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  float: right;
+  margin-right: 7px;
+  margin-top: 0px;
+}
+
+/* change the layout of comment section */
+.comments{
+  width: 946px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.comments h2{
+  font-size: 40px;
+  font-family: "Oleo Script", system-ui;
+  margin-bottom: 25px;
+  margin-top: -5px;
+}
+
+/* In order to get the two comments on the computer side to be on the same level, I changed their layouts separately */
+/* comment1 section */
+.comment1{
+  display: inline-block;
+  vertical-align: top;
+  width:40%;
+  height: 150px;
+  margin-left: 10px;
+  margin-right:10px;
+  text-align: left;
+  border: 2px solid #000000;
+  border-radius: 20px;
+}
+.comment1 img{
+  width: 30%;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.comment1 p{
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+/* comment2 section */
+.comment2{
+  display: inline-block;
+  vertical-align: top;
+  width:40%;
+  height: 150px;
+  margin-left: 40px;
+  margin-right:10px;
+  text-align: left;
+  border: 2px solid #000000;
+  border-radius: 20px;
+}
+.comment2 img{
+  width: 30%;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.comment2 p{
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+
+/* cart layout section */
+
+/* change the layout of cart section */
+.cart{
+  width: 946px;
+  display: inline-block;
+  margin-bottom: 30px;
+  vertical-align: top;
+}
+.cart h1{
+  font-size: 40px;
+  font-family: "Oleo Script", system-ui;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/* change the layout of cart information index*/
+.cartList p{
+  display:inline-block;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 80px;
+  margin-right: 65px;
+}
+
+/* Divide each row of the cart into four parts, aligned with the index above it */
+.cartImage{
+  display: inline-block;
+  width:25%;
+  vertical-align: middle;
+}
+.cartImage img{
+  width: 100%;
+}
+.cartInformation{
+  display: inline-block;
+  width:30%;
+  vertical-align: middle;
+}
+.cartInformation h2{
+  font-size: 25px;
+  font-family: "Oleo Script", sans-serif;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+.cartAmount{
+  display: inline-block;
+  width:16%;
+  vertical-align: middle;
+  margin-left: -5px;
+  margin-right: 15px;
+}
+.cartAmount img{
+  width:100%;
+}
+.cartPrice{
+  display: inline-block;
+  width:25%;
+  vertical-align: middle;
+  font-size: 30px;
+  color:#763A15;
+  font-family: "Oleo script", sans-serif;
+  font-weight: 600;
+}
+
+/* bold line */
+.cart hr{
+  border:1.5px solid black;
+}
+
+/* pay section includes total price and buttons */
+.pay {
+  width: 946px;
+  display: inline-block;
+}
+
+/* for total price  */
+.pay h2{
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+/* for buttons */
+.payButton{
+  width: 946px;
+  display: inline-block;
+}
+.payButton button{
+  display: block;
+  width: 200px;
+  height: 35px;
+  background-color: #916135;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  float: right;
+  margin-top: 10px;
+}
+
+/* change the layout of similar products */
+/* almost same with popular products section in homepage */
+.similar{
+  background-color: #D2B48C;
+  width: 946px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 25px;
+}
+.similar h2{
+  font-size: 40px;
+  font-family: "Oleo Script", system-ui;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.similar-item{
+  width: 15%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 40px;
+  margin-right:40px;
+}
+.similar-item img{
+  width: 100%;
+  margin-bottom: 5px;
+}
+.similar p{
+  display: inline;
+  font-size: 18px;
+  font-family: "Oleo script", sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+
+/* checkout form layout section */
+
+.checkout{
+  width: 946px;
+  height: 912px;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+/* change the layout of lines and headings */
+.checkout hr{
+  border:1.5px solid black;
+  margin-bottom: 20px;
+}
+.checkout h1{
+  font-size: 40px;
+  font-family: "Oleo Script", system-ui;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+/* layout of first form */
+.form1{
+  width:40%;
+  display: inline-block;
+  vertical-align: top;
+}
+.form1 input{
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+.form1 label{
+  font-size: 20px;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+/* layout of second form */
+.form2{
+  width:40%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 140px;
+}
+.form2 input{
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+.form2 label{
+  font-size: 20px;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+/* form2 section includes the button */
+.form2 button{
+  display: block;
+  width: 200px;
+  height: 35px;
+  background-color: #916135;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-right: 30px;
+  float: right;
+}
+
+
+/* successful page layout section */
+
+.successful{
+  width: 946px;
+  height: 912px;
+  display: inline-block;
+}
+
+/* layout of words of thanks */
+.successful h1{
+  font-size: 50px;
+  font-family: "Oleo Script", system-ui;
+  color: #000000;
+  margin-top: 250px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* layout of button */
+.successful button{
+  display: block;
+  width: 200px;
+  height: 35px;
+  background-color: #916135;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-right: 30px;
+  float: right;
+}
+
+/* The above are changes to the computer side (1368 x 912) */
+/* The following will do a different css for mobile (390×844) using the media tag */
+
+/* For the sake of code readability and workload, the two different csses use almost 
+the same formatting and number of lines (except for some mobile-only elements) */
+
+@media (max-width:390px){
+
+/* Split the whole page into two parts and change the background colour separately */
+/* For mobile, all page elements occupy the entire page, so it is straightforward to specify the width of the container */
+.container1{
+  width:390px;
+  background-color: #FFFFFF;
+  text-align: left;
+}
+.container2{
+  width:390px;
+  background-color: #F7F4EF;
+  text-align: center;
+}
+header{
+  width: 390px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Hide the horizontal navigation on desktop */
+nav{
+  display: none;
+}
+
+/* Style the navigation menu */
+.topnav {
+  display: block;
+  overflow: hidden;
+  background-color: #F7F4EF;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+  margin-top: 5px;
+}
+.topnav #myLinks a{
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  height: 5px;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: rgb(255, 255, 255);
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: -5px;
+}
+
+/* Add a grey background color on clicking */
+.topnav a:hover {
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #ffffff;
+}
+
+/* change the layout of logo and function bar */
+.logo{
+  display: block;
+  float:left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.logo img{
+  width: 200px;
+}
+.menu{
+  width:140px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.menu img{
+  width: 20px;
+  margin-right: 0px;
+  margin-left: 20px;
+  margin-top: -10px;
+} 
+
+
+/* homepage(index) layout section */
+
+/* change the layout of banner image */
+.banner{
+  width: 390px;
+  display:inline-block;
+  vertical-align: middle;
+}
+.banner img{
+  width:100%;
+}
+
+/* lay out of category */
+.category{
+  width: 390px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.category h2{
+  font-size: 30px;
+  font-family: "Oleo Script", system-ui;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.category-item{
+  width: 23%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+  margin-right:15px;
+  margin-bottom: 15px;
+}
+.category-item img{
+  width: 100%;
+}
+.category p{
+  display: inline;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* popular products section */
+.popular{
+  background-color: #D2B48C;
+  width: 390px;
+  display: inline-block;
+  margin-top: -8px;
+}
+.popular h2{
+  font-size: 30px;
+  font-family: "Oleo Script", system-ui;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.popular-item{
+  width: 38%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right:15px;
+  margin-bottom: -10px;
+}
+.popular-item img{
+  width: 95%;
+}
+.popular p{
+  display: block;
+  font-size: 14px;
+  font-family: "Oleo script", sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-top: 0px;
+}
+
+
+/* productlist layout section */
+
+/* layout of productlist banner */
+.bannerSub{
+  width:390px;
+  display:inline-block;
+  vertical-align: middle;
+}
+.bannerSub img{
+  width:100%;
+}
+
+/* layout of productlist "sorted by" menu */
+.sort{
+  width: 390px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.sort button{
+  display: block;
+  width: 80px;
+  height: 30px;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  color: #000000;
+  font-size: 11px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  float:left;
+  margin-left: 15px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* layout of productlist */
+.productList{
+  width:390px;
+  vertical-align: top;
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+/* for images */
+.productItem{
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  margin-right:10px;
+}
+.productItem img{
+  width: 100%;
+}
+
+/* for text */
+.productName{
+  display: block;
+  font-size: 14px;
+  font-family: "Oleo script", sans-serif;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.productlistPrice{
+  display: block;
+  font-size: 14px;
+  color: #763A15;
+  font-family: "Oleo script", sans-serif;
+  line-height: 0px;
+} 
+
+
+/* production introdcution layout section */
+
+.productIntroduction{
+  width: 390px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.IntroductionPicture{
+  display: inline-block;
+  width: 100%;
+}
+.IntroductionPicture img{
+  width: 100%;
+}
+
+/* As with desktop, I adjusted the layout for each of the two product introdution */
+.Introduction1{
+  display: inline-block;
+  width:91%;
+  text-align: left;
+  vertical-align: top;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* for product1 */
+.Introduction1 h1{
+  font-size: 30px;
+  font-family: "Oleo Script", system-ui;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.Introduction1 h2{
+  font-size: 25px;
+  font-family: "Oleo Script", system-ui;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.Introduction1 a{
+  display: block;
+}
+.Introduction1 img{
+  margin-top: 10px;
+  float: right;
+  width: 30%;
+  margin-right: 5px;
+}
+
+ /* for product2 */
+.Introduction2{
+  display: inline-block;
+  width:92%;
+  text-align: left;
+  vertical-align: top;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Introduction2 h1{
+  font-size: 27px;
+  font-family: "Oleo Script", system-ui;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 2px;
+}
+.Introduction2 h2{
+  font-size: 25px;
+  font-family: "Oleo Script", system-ui;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.Introduction2 a{
+  display: block;
+}
+.Introduction2 img{
+  margin-top: 10px;
+  float: right;
+  width: 30%;
+  margin-right: 8px;
+}
+
+/* same part */
+.IntroductionPrice{
+  display: block;
+  font-size: 30px;
+  color:#763A15;
+  font-family: "Oleo script", sans-serif;
+  font-weight: 600;
+  margin-top: -15px;
+  margin-bottom: -5px;
+  text-align: center;
+} 
+.IntroductionText{
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+/* layout of button */
+.buy{
+  width: 390px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.buy button{
+  width: 140px;
+  height: 35px;
+  background-color: #916135;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  float: right;
+  margin-right: 22px;
+  margin-top: -10px;
+}
+
+/* The layout of the mobile comments has been changed in the css. */
+.comments{
+  width: 390px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.comments h2{
+  font-size: 35px;
+  font-family: "Oleo Script", system-ui;
+  margin-bottom: 15px;
+  margin-top: -10px;
+}
+
+/* for comment1 */
+.comment1{
+  display: inline-block;
+  vertical-align: top;
+  width:80%;
+  height: 150px;
+  margin-left: 10px;
+  margin-right:10px;
+  text-align: left;
+  border: 2px solid #000000;
+  border-radius: 20px;
+}
+.comment1 img{
+  width: 30%;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.comment1 p{
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+/* for comment2 */
+.comment2{
+  display: inline-block;
+  vertical-align: top;
+  width:80%;
+  height: 150px;
+  margin-left: 10px;
+  margin-right:10px;
+  text-align: left;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.comment2 img{
+  width: 30%;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.comment2 p{
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+
+/* cart layout section */
+
+/* Here and on the computer side only change the font and image size, do not do the superfluous explanation */
+.cart{
+  width: 390px;
+  height: 844px;
+  display: inline-block;
+  vertical-align: top;
+}
+.cart h1{
+  font-size: 30px;
+  font-family: "Oleo Script", system-ui;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.cartList{
+  margin-left: 10px;
+}
+.cartList p{
+  display:inline-block;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 16px;
+  margin-right: 20px;
+}
+.cartImage{
+  width:25%;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+.cartImage img{
+  width: 100%;
+}
+.cartInformation{
+  display: inline-block;
+  width:30%;
+  vertical-align: middle;
+}
+.cartInformation h2{
+  font-size: 14px;
+  font-family: "Oleo Script", sans-serif;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+.cartAmount{
+  display: inline-block;
+  width:17%;
+  vertical-align: middle;
+  margin-left: -5px;
+  margin-right: 15px;
+}
+.cartAmount img{
+  width:100%;
+}
+.cartPrice{
+  display: inline-block;
+  width:18%;
+  vertical-align: middle;
+  font-size: 14px;
+  color:#763A15;
+  font-family: "Oleo script", sans-serif;
+  font-weight: 600;
+  margin-right: 5px;
+}
+.cart hr{
+  border:1.5px solid black;
+}
+
+/* for pay section */
+/* total price */
+.pay {
+  width: 390px;
+  display: inline-block;
+}
+.pay h2{
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  text-align: right;
+}
+
+/* for buttons */
+.payButton{
+  width: 390px;
+  display: inline-block;
+}
+.payButton button{
+  display: block;
+  width: 160px;
+  height: 35px;
+  background-color: #916135;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  float: right;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+/* for similar items */
+.similar{
+  background-color: #D2B48C;
+  width: 390px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 25px;
+}
+.similar h2{
+  font-size: 30px;
+  font-family: "Oleo Script", system-ui;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.similar-item{
+  width: 22%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+  margin-right:15px;
+}
+.similar-item img{
+  width: 100%;
+}
+.similar p{
+  display: inline;
+  font-size: 14px;
+  font-family: "Oleo script", sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+
+/* checkout form layout page */
+/* One line, one form, format changes */
+.checkout{
+  background-color: #F7F4EF;
+  width: 390px;
+  height: 1100px;
+  display: inline-block;
+  margin-top: 25px;
+}
+.checkout hr{
+  border:1.5px solid black;
+  margin-bottom: 20px;
+}
+.checkout h1{
+  display: inline-block;
+  font-size: 30px;
+  font-family: "Oleo Script", system-ui;
+  margin-bottom: 15px;
+}
+
+/* for the first form */
+.form1{
+  width:100%;
+  display: inline-block;
+  vertical-align: top;
+}
+.form1 input{
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.form1 label{
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+/* for the second form */
+.form2{
+  width:100%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0px;
+}
+.form2 input{
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.form2 label{
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+/* layout of button */
+.form2 button{
+  display: block;
+  width: 160px;
+  height: 35px;
+  background-color: #916135;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-right: 30px;
+  float: right;
+}
+
+
+/* successful layout page */
+
+.successful{
+  width: 390px;
+  height: 844px;
+  display: inline-block;
+}
+
+/* words of thanks layout */
+.successful h1{
+  font-size: 40px;
+  font-family: "Oleo Script", system-ui;
+  color: #000000;
+  margin-top: 250px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* button back to homepage */
+.successful button{
+  display: inline-block;
+  width: 200px;
+  height: 35px;
+  background-color: #916135;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+}
+
+
